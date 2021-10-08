@@ -92,6 +92,20 @@ body ::-webkit-scrollbar-thumb, html ::-webkit-scrollbar-thumb {
     position: relative;
     top: 4px; }
 
+.header__right {
+  display: flex;
+  align-items: center; }
+
+.switch-langs-header {
+  margin-right: 20px; }
+  .switch-langs-header span, .switch-langs-header a {
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s; }
+  .switch-langs-header a:hover {
+    text-decoration: none;
+    color: #FFC700; }
+
 .btn-default {
   border-radius: 6px;
   font-weight: 500;
